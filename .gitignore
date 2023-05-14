@@ -1,0 +1,45 @@
+# symfony/framework-bundle
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+
+# symfony/phpunit-bridge
+.phpunit.result.cache
+/phpunit.xml
+
+# PHPUnit
+/phpunit.xml
+.phpunit.result.cache
+
+# Build data
+/build/
+
+# Logs (Symfony)
+/var/log/*
+!var/log/.gitkeep
+
+# Managed by Composer
+/vendor/*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
